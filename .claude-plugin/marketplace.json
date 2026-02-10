@@ -1,0 +1,15 @@
+{
+  "name": "claude-env-sync-marketplace",
+  "description": "Claude Env Sync plugin marketplace",
+  "owner": {
+    "name": "bono"
+  },
+  "plugins": [
+    {
+      "name": "claude-env-sync",
+      "source": "./",
+      "description": "Claude Code 설정을 Git으로 동기화합니다",
+      "version": "0.1.0"
+    }
+  ]
+}

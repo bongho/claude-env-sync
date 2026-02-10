@@ -1,0 +1,31 @@
+{
+  "name": "claude-env-sync",
+  "version": "0.1.0",
+  "description": "Claude Code 설정을 Git으로 동기화합니다",
+  "author": {
+    "name": "bono",
+    "url": "https://github.com/bongho"
+  },
+  "repository": "https://github.com/bongho/claude-env-sync",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "sync",
+    "settings",
+    "dotfiles",
+    "git",
+    "mcp-server"
+  ],
+  "mcpServers": {
+    "claude-env-sync": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "${CLAUDE_PLUGIN_ROOT}/integrations/claude-sync-mcp",
+        "run",
+        "claude-sync-mcp"
+      ],
+      "env": {}
+    }
+  }
+}

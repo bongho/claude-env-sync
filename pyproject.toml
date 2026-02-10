@@ -58,6 +58,9 @@ omit = ["tests/*"]
 show_missing = true
 fail_under = 80
 
+[tool.uv.workspace]
+members = ["integrations/claude-sync-mcp"]
+
 [tool.ruff]
 target-version = "py39"
 line-length = 88
