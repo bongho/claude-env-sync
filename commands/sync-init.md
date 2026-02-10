@@ -1,11 +1,13 @@
 ---
+allowed-tools: Bash(claude-sync init*)
 description: 동기화 환경 초기화 (Git 저장소 생성)
 argument-hint: [--remote URL]
 ---
 
-Claude 설정 동기화 환경을 초기화합니다.
+`claude-sync init` 명령을 실행하세요.
+사용자가 원격 저장소 URL을 제공하면 `--remote <URL>` 옵션으로 전달합니다.
 
-MCP 도구 `sync_init`을 호출하세요. 사용자가 원격 저장소 URL을 제공하면 `remote_url` 파라미터로 전달합니다.
+!`claude-sync init`
 
 완료 후 결과를 사용자에게 보여주세요:
 - 동기화 저장소 경로

@@ -13,19 +13,6 @@
     "sync",
     "settings",
     "dotfiles",
-    "git",
-    "mcp-server"
-  ],
-  "mcpServers": {
-    "claude-env-sync": {
-      "command": "uv",
-      "args": [
-        "--directory",
-        "${CLAUDE_PLUGIN_ROOT}/integrations/claude-sync-mcp",
-        "run",
-        "claude-sync-mcp"
-      ],
-      "env": {}
-    }
-  }
+    "git"
+  ]
 }
