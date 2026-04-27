@@ -1,0 +1,15 @@
+{
+  "plugins": [
+    "beads@beads-marketplace",
+    "session-wrap@team-attention-plugins",
+    "youtube-digest@team-attention-plugins",
+    "playwright-skill@playwright-skill",
+    "claude-hud@claude-hud",
+    "telegram@claude-plugins-official",
+    "vercel-plugin@vercel-vercel-plugin",
+    "axlabs-mckinsey-pptx@axlabs"
+  ],
+  "notes": {
+    "vercel-plugin@vercel-vercel-plugin": "marketplace 선등록 필요: claude plugin marketplace add vercel/vercel-plugin"
+  }
+}
