@@ -1,7 +1,14 @@
 ---
 allowed-tools: Bash(claude-sync history*)
 description: 동기화 이력 조회
-argument-hint: [--limit N]
+argument-hint:
+  - --limit N
+type:
+  - seed
+tags: []
+date: 2026-04-27
+grew_from: 2026-04-27
+review_status: pending
 ---
 
 `claude-sync history` 명령을 실행하세요.
@@ -14,3 +21,23 @@ argument-hint: [--limit N]
 - 날짜
 - 메시지
 - 변경 파일 수
+
+
+## The Core Idea
+-  null
+
+## Inception & Context
+- null
+
+## Related
+- [[]]
+
+
+## The Core Idea
+-  null
+
+## Inception & Context
+- null
+
+## Related
+- [[]]

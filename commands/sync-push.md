@@ -1,7 +1,14 @@
 ---
 allowed-tools: Bash(claude-sync push*)
 description: Claude 설정을 동기화 저장소로 push
-argument-hint: [--message TEXT]
+argument-hint:
+  - --message TEXT
+type:
+  - seed
+tags: []
+date: 2026-04-27
+grew_from: 2026-04-27
+review_status: pending
 ---
 
 `claude-sync push` 명령을 실행하세요.
@@ -13,3 +20,13 @@ argument-hint: [--message TEXT]
 - **시크릿 감지 시**: 발견된 시크릿 상세를 보여주고, 해당 파일에서 시크릿을 제거하라고 안내
 - **성공 시**: 동기화된 파일 수와 커밋 여부를 보여줌
 - **변경 없음**: 이미 최신 상태임을 알림
+
+
+## The Core Idea
+-  null
+
+## Inception & Context
+- null
+
+## Related
+- [[]]

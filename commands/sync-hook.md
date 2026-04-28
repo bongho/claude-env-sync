@@ -2,6 +2,12 @@
 allowed-tools: Bash(claude-sync hook*)
 description: Shell hook 설치/제거
 argument-hint: <install|uninstall> [--shell bash|zsh|auto]
+type:
+  - seed
+tags: []
+date: 2026-04-27
+grew_from: 2026-04-27
+review_status: pending
 ---
 
 Shell 시작 시 자동으로 `claude-sync pull`을 실행하는 hook을 관리합니다.
@@ -15,3 +21,13 @@ Shell 시작 시 자동으로 `claude-sync pull`을 실행하는 hook을 관리�
 !`claude-sync hook`
 
 결과를 보여주고, 적용된 RC 파일 경로를 안내하세요.
+
+
+## The Core Idea
+-  null
+
+## Inception & Context
+- null
+
+## Related
+- [[]]

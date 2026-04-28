@@ -1,7 +1,14 @@
 ---
 allowed-tools: Bash(claude-sync init*)
 description: 동기화 환경 초기화 (Git 저장소 생성)
-argument-hint: [--remote URL]
+argument-hint:
+  - --remote URL
+type:
+  - seed
+tags: []
+date: 2026-04-27
+grew_from: 2026-04-27
+review_status: pending
 ---
 
 `claude-sync init` 명령을 실행하세요.
@@ -13,3 +20,13 @@ argument-hint: [--remote URL]
 - 동기화 저장소 경로
 - 원격 저장소 설정 여부
 - 다음 단계 안내 (`/claude-env-sync:sync-push`로 첫 동기화)
+
+
+## The Core Idea
+-  null
+
+## Inception & Context
+- null
+
+## Related
+- [[]]

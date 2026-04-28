@@ -2,6 +2,12 @@
 allowed-tools: Bash(claude-sync restore*), Bash(claude-sync history*)
 description: 특정 시점으로 설정 복원
 argument-hint: <COMMIT_SHA>
+type:
+  - seed
+tags: []
+date: 2026-04-27
+grew_from: 2026-04-27
+review_status: pending
 ---
 
 특정 커밋 시점으로 설정을 복원합니다.
@@ -13,3 +19,13 @@ SHA가 확정되면 `claude-sync restore <SHA>`를 실행합니다.
 !`claude-sync restore`
 
 복원 결과를 보여주고, 복원 전 상태가 자동 백업되었음을 안내하세요.
+
+
+## The Core Idea
+-  null
+
+## Inception & Context
+- null
+
+## Related
+- [[]]
